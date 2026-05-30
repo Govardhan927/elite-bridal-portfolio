@@ -1,0 +1,10 @@
+{
+  "name": "elite-bridal-makeover",
+  "version": "1.0.0",
+  "description": "Elite Bridal Makeover — Premium Bridal Beauty Portfolio",
+  "private": true,
+  "scripts": {
+    "start": "npx -y http-server . -p 3000 -c-1",
+    "dev": "npx -y http-server . -p 3000 -c-1 -o"
+  }
+}
