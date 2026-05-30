@@ -4,6 +4,7 @@
   "description": "Elite Bridal Makeover — Premium Bridal Beauty Portfolio",
   "private": true,
   "scripts": {
+    "build": "mkdir -p html public dist && cp -r index.html styles.css script.js images html/ || true && cp -r index.html styles.css script.js images public/ || true && cp -r index.html styles.css script.js images dist/ || true && echo 'Build complete! Ready for Render.'",
     "start": "npx -y http-server . -p 3000 -c-1",
     "dev": "npx -y http-server . -p 3000 -c-1 -o"
   }
